@@ -1,0 +1,462 @@
+{
+  "app": {
+    "name": "KEVIN OS",
+    "documentTitle": "KEVIN OS — Hệ điều hành cá nhân",
+    "tagline": "Hệ điều hành cá nhân"
+  },
+  "common": {
+    "notUpdated": "Chưa cập nhật",
+    "empty": "—",
+    "loading": "Đang tải…",
+    "example": "Ví dụ minh hoạ"
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "switchTo": "Chuyển sang {{name}}",
+    "native": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "zh": "中文"
+    }
+  },
+  "header": {
+    "home": "KEVIN OS — về đầu trang",
+    "skip": "Chuyển đến nội dung chính",
+    "search": "Tìm kiếm",
+    "notifications": "Thông báo",
+    "account": "Tài khoản"
+  },
+  "content": {
+    "brand": {
+      "kicker": "Hệ điều hành cá nhân",
+      "tagline": [
+        "Xây kỹ năng.",
+        "Xây sức mạnh.",
+        "Xây sự tự chủ."
+      ],
+      "philosophyLabel": "Triết lý cốt lõi",
+      "philosophy": "Trở thành người đủ năng lực để xây dựng cuộc sống mình muốn.",
+      "ctaDashboard": "Mở bảng điều khiển",
+      "ctaStory": "Đọc câu chuyện"
+    },
+    "chapters": {
+      "whoIAm": "Tôi là ai",
+      "vision": "Tầm nhìn",
+      "dashboard": "Bảng điều khiển",
+      "profile": "Hồ sơ & Dữ liệu"
+    },
+    "profile": {
+      "name": "Kevin",
+      "roles": "Sinh viên · Doanh nhân tương lai · Không ngừng tự rèn luyện",
+      "oneLiner": "Tôi là sinh viên năm hai chương trình quốc tế tại HUIT, đang khám phá Logistics, kinh doanh quốc tế và khởi nghiệp — đồng thời rèn tiếng Anh, năng lực chuyên môn, lối sống thể thao và kỷ luật cá nhân để hướng tới tự do tài chính và một tương lai linh hoạt hơn.",
+      "welcome": "Tham vọng của bạn lớn hơn hoàn cảnh hiện tại. Hôm nay là thêm một cơ hội để biến tham vọng ấy thành kỹ năng thật, trải nghiệm có ý nghĩa và hành động đều đặn."
+    },
+    "greeting": {
+      "morning": "Chào buổi sáng, {{name}}.",
+      "afternoon": "Chào buổi chiều, {{name}}.",
+      "evening": "Chào buổi tối, {{name}}."
+    },
+    "identity": {
+      "education": {
+        "title": "Học tập & sự nghiệp",
+        "items": [
+          "Sinh viên năm hai chương trình quốc tế tại HUIT.",
+          "Chuyên ngành: Logistics.",
+          "Tìm hiểu cơ hội nghề nghiệp trong Logistics, kinh doanh quốc tế và các công ty đa quốc gia.",
+          "Muốn hiểu kiến thức trên giảng đường chuyển thành kinh nghiệm làm việc thực tế như thế nào.",
+          "Cân nhắc cách việc học có thể làm nền cho con đường khởi nghiệp sau này."
+        ]
+      },
+      "business": {
+        "title": "Hướng khởi nghiệp",
+        "items": [
+          "Sở hữu phòng gym và kinh doanh trong ngành fitness.",
+          "Phân phối thiết bị gym, trong đó có các thương hiệu như Panatta.",
+          "Phân phối và bán thực phẩm bổ sung.",
+          "Sáng tạo nội dung fitness và xây dựng thương hiệu cá nhân.",
+          "Vận hành doanh nghiệp, chuỗi cung ứng, marketing và thu hút khách hàng."
+        ]
+      },
+      "traits": {
+        "title": "Tính cách",
+        "items": [
+          "Tò mò, luôn muốn hiểu lý do đằng sau mọi việc.",
+          "Coi trọng tư duy phản biện và những góc nhìn khác nhau.",
+          "Thích lời giải thích cụ thể và kế hoạch làm được ngay.",
+          "Muốn rèn thêm sự kiên nhẫn, khả năng giao tiếp và tinh thần trách nhiệm.",
+          "Đang khắc phục sự thiếu đều đặn, thói trì hoãn và việc nghĩ quá nhiều.",
+          "Muốn trở nên dễ gần và tự tin hơn khi giao tiếp xã hội."
+        ]
+      }
+    },
+    "vision": {
+      "statement": "Trở thành người độc lập tài chính, khỏe mạnh, hiểu biết và vững vàng về cảm xúc — đủ sức chăm lo cho gia đình, xây dựng những mối quan hệ ý nghĩa và được tự do chọn cách mình sống."
+    },
+    "dashboard": {
+      "focusHeading": "Bốn lĩnh vực trọng tâm",
+      "pillarsHeading": "Ba trụ cột dài hạn",
+      "entriesHeading": "Bắt đầu nhanh",
+      "todayValue": "Giá trị hôm nay",
+      "notLogged": "Chưa ghi nhận",
+      "target": "Mục tiêu",
+      "track": "Theo dõi",
+      "progress": "Tiến độ tới mục tiêu",
+      "mostImportant": "Quan trọng nhất",
+      "threeItems": "Ba việc cụ thể"
+    },
+    "focus": {
+      "career": {
+        "title": "Sự nghiệp & Kinh doanh",
+        "target": "Tích lũy kinh nghiệm thực tế và tìm ra hướng nghề nghiệp có ý nghĩa.",
+        "body": "Khám phá Logistics và kinh doanh quốc tế, đồng thời xây mạng lưới quan hệ, kiến thức ngành và kỹ năng khởi nghiệp cần thiết để bước vào ngành fitness hoặc tự xây dựng một doanh nghiệp độc lập.",
+        "track": "Nghiên cứu nghề nghiệp, thực tập, dự án, người hướng dẫn và các thử nghiệm kinh doanh."
+      },
+      "english": {
+        "title": "Tiếng Anh & Giao tiếp",
+        "target": "IELTS Speaking 6.5–7.0 và Writing 6.0–6.5.",
+        "body": "Biến tiếng Anh từ một môn học thành lợi thế nghề nghiệp — cho cơ hội quốc tế, kết quả học tập, việc mở rộng quan hệ và kinh doanh.",
+        "track": "Luyện IELTS, ngữ pháp, từ vựng, viết và giao tiếp chuyên nghiệp."
+      },
+      "fitness": {
+        "title": "Thể hình & Dinh dưỡng",
+        "target": "Có vóc dáng săn chắc, thể thao mà vẫn giữ được cơ bắp và sức mạnh.",
+        "body": "Xây lối sống fitness bền vững bằng tập kháng lực, rèn sức bền tim mạch, ăn uống hợp lý và phục hồi tốt.",
+        "track": "Buổi tập, calo, protein, giấc ngủ và xu hướng thành phần cơ thể.",
+        "note": "Kế hoạch dinh dưỡng từng đặt ra: khoảng {{normal}} kcal vào ngày thường/ngày tập và {{rest}} kcal vào ngày nghỉ. Xem lại định kỳ, không coi là con số cố định."
+      },
+      "growth": {
+        "title": "Phát triển bản thân & Quản lý cuộc sống",
+        "target": "Rèn sự đều đặn, sức bền cảm xúc, khả năng tự nhận thức, sự kiên nhẫn và cách ra quyết định.",
+        "body": "Xây một tâm trí vững vàng và cuộc sống cân bằng: học cách quản lý cảm xúc, các mối quan hệ, trách nhiệm, thói quen và kỳ vọng của chính mình.",
+        "track": "Ưu tiên mỗi ngày, nhận diện cảm xúc, sự tự tin khi giao tiếp và tự soi lại hằng tháng."
+      }
+    },
+    "pillars": {
+      "career": {
+        "title": "Khám phá sự nghiệp & Khởi nghiệp",
+        "body": "Tìm ra điểm giao nhau giữa sở thích, thế mạnh và cơ hội thị trường — rồi biến hiểu biết đó thành kinh nghiệm thực tế và cơ hội kinh doanh.",
+        "items": {
+          "a": {
+            "title": "Logistics & Kinh doanh quốc tế",
+            "bullets": [
+              "Hiểu chuỗi cung ứng, thu mua, giao nhận vận tải (freight forwarding) và xuất nhập khẩu.",
+              "Tìm hiểu các công ty đa quốc gia và cơ hội việc làm ở Việt Nam lẫn nước ngoài.",
+              "Hiểu lộ trình thăng tiến, mức thu nhập và những kỹ năng cần có để trở thành chủ doanh nghiệp."
+            ]
+          },
+          "b": {
+            "title": "Ngành fitness & Kinh doanh",
+            "bullets": [
+              "Nghiên cứu các thương hiệu thiết bị gym như Panatta và mô hình phân phối thiết bị.",
+              "Tìm hiểu phân phối thực phẩm bổ sung, bán hàng, marketing và thu hút khách hàng.",
+              "Học về vận hành phòng gym và sáng tạo nội dung fitness."
+            ]
+          },
+          "c": {
+            "title": "Phát triển chuyên môn & Kết nối",
+            "bullets": [
+              "Tìm giảng viên, mentor trong ngành và những người đi trước.",
+              "Chuẩn bị CV cạnh tranh và theo đuổi cơ hội thực tập.",
+              "Xây thương hiệu cá nhân và nâng cao giao tiếp chuyên nghiệp."
+            ]
+          }
+        }
+      },
+      "english": {
+        "title": "Tiếng Anh, Học thuật & Kỹ năng thực tế",
+        "body": "Phát triển khả năng giao tiếp và phân tích vững vàng để có thể du học, làm việc tự tin và diễn đạt rõ ràng những ý tưởng phức tạp.",
+        "items": {
+          "a": {
+            "title": "IELTS & Tiếng Anh học thuật",
+            "bullets": [
+              "Nâng Speaking lên Band 6.5–7.0.",
+              "Nâng Writing lên Band 6.0–6.5.",
+              "Luyện cách phát triển lập luận và tính mạch lạc trong Task 2."
+            ]
+          },
+          "b": {
+            "title": "Nền tảng ngôn ngữ",
+            "bullets": [
+              "Củng cố ngữ pháp nền tảng thay vì học thuộc mẫu câu.",
+              "Mở rộng từ vựng qua ngữ cảnh, từ đồng nghĩa, trái nghĩa và collocation.",
+              "Dùng cách diễn đạt nâng cao nhưng vẫn tự nhiên."
+            ]
+          },
+          "c": {
+            "title": "Giao tiếp thực tế",
+            "bullets": [
+              "Luyện thuyết trình và nói tự nhiên không cần chuẩn bị trước.",
+              "Nâng cao kỹ năng viết chuyên nghiệp, email và phỏng vấn.",
+              "Học cách trình bày ý tưởng và truyền đạt nhiều góc nhìn khác nhau."
+            ]
+          }
+        }
+      },
+      "health": {
+        "title": "Sức khỏe, Bản lĩnh tinh thần & Các mối quan hệ",
+        "body": "Tạo một lối sống cân bằng, nơi sức khỏe thể chất, sự ổn định cảm xúc, các mối quan hệ ý nghĩa và kỷ luật cá nhân cùng nâng đỡ nhau.",
+        "items": {
+          "a": {
+            "title": "Phát triển thể chất",
+            "bullets": [
+              "Duy trì tập gym và xây vóc dáng chữ V thể thao.",
+              "Tăng sức bền tim mạch qua đi bộ, chạy và tập Zone 2.",
+              "Ưu tiên protein, phục hồi và giấc ngủ."
+            ]
+          },
+          "b": {
+            "title": "Sức mạnh tinh thần",
+            "bullets": [
+              "Xây một tư duy ổn định thay vì phụ thuộc vào cảm hứng.",
+              "Bớt so sánh cơ thể và bớt tự phán xét tiêu cực.",
+              "Học cách đối diện với bất định, lo âu và thất vọng."
+            ]
+          },
+          "c": {
+            "title": "Phát triển xã hội & cá nhân",
+            "bullets": [
+              "Xây những tình bạn chân thành và trở nên dễ gần hơn.",
+              "Nhận trách nhiệm trong dự án nhóm và các cam kết xã hội.",
+              "Rèn sự kiên nhẫn, thấu cảm, lắng nghe chủ động và tư duy đa chiều."
+            ]
+          }
+        }
+      }
+    },
+    "nav": {
+      "label": "Điều hướng KEVIN OS",
+      "groupA": "Hệ thống hằng ngày",
+      "groupB": "Tương lai & Bản sắc",
+      "items": {
+        "overview": {
+          "title": "Tổng quan",
+          "desc": "Tiến độ mỗi ngày, ưu tiên và sự phát triển chung."
+        },
+        "planner": {
+          "title": "Kế hoạch & Thói quen",
+          "desc": "Lịch học, giờ tự học, buổi tập, giấc ngủ và các cam kết."
+        },
+        "english": {
+          "title": "Tiếng Anh & Học tập",
+          "desc": "IELTS, từ vựng, ngữ pháp, sửa bài viết và luyện nói."
+        },
+        "fitness": {
+          "title": "Thể hình & Dinh dưỡng",
+          "desc": "Giáo án tập, calo, protein, cân nặng và phục hồi."
+        },
+        "university": {
+          "title": "Đại học & Sự nghiệp",
+          "desc": "Học Logistics, định hướng nghề nghiệp, thực tập và nghiên cứu ngành."
+        },
+        "networking": {
+          "title": "Kết nối & Thương hiệu cá nhân",
+          "desc": "Mentor, quan hệ nghề nghiệp, kỹ năng xã hội và sáng tạo nội dung fitness."
+        },
+        "finance": {
+          "title": "Tài chính & Khởi nghiệp",
+          "desc": "Tự do tài chính, kiến thức đầu tư, mô hình kinh doanh và cơ hội trong ngành gym."
+        },
+        "mindset": {
+          "title": "Tư duy & Nhìn lại",
+          "desc": "Sức bền cảm xúc, tự nhận thức, các mối quan hệ, sai lầm và tổng kết hằng tháng."
+        }
+      }
+    },
+    "entries": {
+      "action": "Bắt đầu",
+      "plan": {
+        "title": "Lên kế hoạch hôm nay",
+        "desc": "Lập kế hoạch thực tế, cân bằng việc học ở trường, ôn IELTS, tập gym, việc cá nhân và nghỉ ngơi.",
+        "bullets": [
+          "Ba ưu tiên quan trọng nhất hôm nay.",
+          "Lịch học, lịch tập và lịch cá nhân.",
+          "Việc đã xong, đang chờ và bị dời lại."
+        ]
+      },
+      "explore": {
+        "title": "Khám phá tương lai",
+        "desc": "Tìm cơ hội nghề nghiệp, thử ý tưởng kinh doanh và chọn những trải nghiệm thực tế đưa mình đến gần hơn với tự do tài chính.",
+        "bullets": [
+          "Nghiên cứu Logistics và kinh doanh quốc tế.",
+          "Cơ hội kinh doanh trong ngành fitness.",
+          "Thực tập, mentor và mở rộng quan hệ."
+        ]
+      },
+      "reflect": {
+        "title": "Nhìn lại & Làm mới",
+        "desc": "Xem lại hành động, cảm xúc, quyết định và sự trưởng thành trong ngày — để biết điều gì hiệu quả, điều gì chưa và cần thay đổi gì.",
+        "bullets": [
+          "Nhìn lại mỗi ngày.",
+          "Tổng kết tiến độ hằng tuần.",
+          "Đánh giá phát triển cá nhân hằng tháng."
+        ]
+      }
+    },
+    "quickInput": {
+      "label": "Ghi nhanh",
+      "placeholder": "Ghi nhanh: lên kế hoạch, học điều mới hay nhìn lại một ngày…",
+      "submit": "Lưu ghi chú",
+      "modeLabel": "Loại ghi chú",
+      "saved": "Đã lưu — chỉ trên trình duyệt này.",
+      "recent": "Ghi gần đây",
+      "remove": "Xoá ghi chú",
+      "modes": {
+        "plan": {
+          "label": "Lên kế hoạch",
+          "desc": "Sắp xếp ngày, ưu tiên việc quan trọng và lập lịch thực tế."
+        },
+        "learn": {
+          "label": "Học & Xây",
+          "desc": "Học tiếng Anh, rèn kỹ năng thực tế, tìm cơ hội hoặc làm dự án kinh doanh, nghề nghiệp."
+        },
+        "reflect": {
+          "label": "Nhìn lại",
+          "desc": "Phân tích tiến độ, hiểu cảm xúc, nhận ra sai lầm và quyết định tốt hơn."
+        }
+      }
+    },
+    "profileData": {
+      "title": "Những dữ kiện nền.",
+      "intro": "Thông tin nền dùng để cá nhân hoá KEVIN OS. Số liệu được ghi rõ thời điểm cập nhật gần nhất.",
+      "rows": {
+        "displayName": "Tên hiển thị",
+        "university": "Trường",
+        "program": "Chương trình",
+        "studyYear": "Năm học",
+        "major": "Chuyên ngành",
+        "height": "Chiều cao",
+        "weight": "Cân nặng gần nhất",
+        "englishGoal": "Mục tiêu tiếng Anh",
+        "fitnessGoal": "Mục tiêu thể hình",
+        "training": "Tập luyện",
+        "businessInterest": "Quan tâm kinh doanh",
+        "contentInterest": "Quan tâm nội dung",
+        "financialAmbition": "Tham vọng tài chính",
+        "learningPref": "Cách học ưa thích",
+        "planningPref": "Cách lập kế hoạch",
+        "values": "Phẩm chất cần rèn",
+        "lifestyle": "Hình mẫu cuộc sống"
+      },
+      "values": {
+        "program": "Chương trình quốc tế",
+        "studyYear": "Năm hai (theo cập nhật gần nhất)",
+        "major": "Logistics",
+        "weight": "{{value}} · cập nhật {{date}}",
+        "englishGoal": "Speaking 6.5–7.0 · Writing 6.0–6.5",
+        "fitnessGoal": "Vóc dáng săn chắc, thể thao; giữ cơ bắp",
+        "training": "Gym, đi bộ, chạy, rèn sức bền tim mạch",
+        "businessInterest": "Phòng gym, thiết bị, thực phẩm bổ sung, phân phối",
+        "contentInterest": "Sáng tạo nội dung fitness",
+        "financialAmbition": "1 triệu USD trước tuổi 25 (mục tiêu từng đặt ra)",
+        "learningPref": "Giải thích chi tiết, ví dụ cụ thể, kế hoạch SMART",
+        "planningPref": "Lộ trình, mục tiêu đo lường được, tổng kết hằng tháng",
+        "values": "Kiên nhẫn, bền bỉ, trách nhiệm, thấu cảm",
+        "lifestyle": "Tự do tài chính, linh hoạt và lo được cho gia đình"
+      }
+    },
+    "dataGaps": {
+      "title": "Dữ liệu còn thiếu",
+      "intro": "Cần cập nhật trước khi KEVIN OS hiển thị số liệu thật. Cho đến lúc đó, mọi chỉ số đều hiện “—”.",
+      "badge": "Cần cập nhật",
+      "items": [
+        "Điểm GPA và kết quả học tập hiện tại.",
+        "Điểm IELTS hiện tại.",
+        "Dự án nghề nghiệp và tình trạng thực tập hiện tại.",
+        "Năng suất làm việc mỗi ngày.",
+        "Thu nhập, tiết kiệm và đầu tư hiện tại.",
+        "Cân nặng và thành tích thể lực hiện tại.",
+        "Lịch ngủ hiện tại."
+      ]
+    }
+  },
+  "ds": {
+    "chapter": "Design System",
+    "status": "Bước 1 · Chờ duyệt",
+    "title": "Hệ thống trước. Giao diện sau.",
+    "lede": "Nền móng của KEVIN OS: màu sắc, chữ, khoảng cách và các thành phần dùng chung — để mỗi màn hình sau này đều nói cùng một giọng.",
+    "colors": {
+      "chapter": "Màu sắc",
+      "title": "Giấy ấm, mực đậm, một điểm cam.",
+      "note": "Cam chỉ dành cho hành động chính và điểm nhấn — không rải khắp nơi để trang trí.",
+      "roles": {
+        "paper": "Nền trang",
+        "surface": "Thẻ",
+        "ink": "Chữ chính",
+        "ink2": "Chữ phụ",
+        "ink3": "Nhãn mờ",
+        "line": "Đường viền",
+        "accent": "Điểm nhấn",
+        "accentStrong": "Nút chính",
+        "accentSoft": "Nền nhấn nhẹ"
+      }
+    },
+    "type": {
+      "chapter": "Kiểu chữ",
+      "title": "Hai giọng: kể chuyện và vận hành.",
+      "editorial": "Editorial — cho Intro, Identity, Vision",
+      "dashboard": "Dashboard — cho bảng điều khiển",
+      "sample": {
+        "display": "Kỷ luật là tự do.",
+        "lede": "Mỗi ngày một chút: thêm một buổi tập, thêm một bài đọc, thêm một bước gần mục tiêu.",
+        "h2": "Tuần này",
+        "body": "Chỉ số chưa có dữ liệu sẽ hiện “—”, không bao giờ là một con số bịa ra.",
+        "label": "Cập nhật lần cuối"
+      }
+    },
+    "components": {
+      "chapter": "Thành phần",
+      "title": "Những viên gạch dùng chung.",
+      "states": {
+        "default": "Mặc định",
+        "disabled": "Vô hiệu",
+        "loading": "Đang tải"
+      },
+      "buttons": {
+        "heading": "Nút",
+        "primary": "Bắt đầu",
+        "secondary": "Xem chi tiết",
+        "ghost": "Bỏ qua",
+        "saving": "Đang lưu",
+        "add": "Thêm mới"
+      },
+      "badges": {
+        "heading": "Nhãn trạng thái",
+        "active": "Đang làm",
+        "done": "Hoàn thành",
+        "pending": "Chờ dữ liệu",
+        "note": "Ghi chú",
+        "draft": "Bản nháp"
+      },
+      "progress": {
+        "heading": "Thanh tiến độ",
+        "empty": "Chưa có dữ liệu"
+      },
+      "avatar": {
+        "heading": "Ảnh đại diện"
+      },
+      "sidebar": {
+        "heading": "Mục điều hướng"
+      },
+      "chapterLabel": {
+        "heading": "Nhãn chương"
+      },
+      "cards": {
+        "heading": "Thẻ",
+        "statLabel": "Buổi tập tuần này",
+        "interactive": "Thẻ tương tác",
+        "interactiveHint": "Rê chuột vào để thấy thẻ nhấc lên.",
+        "flat": "Khối lồng bên trong thẻ"
+      }
+    },
+    "i18n": {
+      "chapter": "Đa ngôn ngữ",
+      "title": "Một câu chuyện, ba ngôn ngữ.",
+      "body": "Chọn VI / EN / 中 ở góc phải phía trên. Lựa chọn được ghi nhớ cho lần sau; lần đầu ghé thăm, trang tự theo ngôn ngữ của trình duyệt.",
+      "current": "Ngôn ngữ hiện tại",
+      "stored": "Đã lưu (localStorage)",
+      "browser": "Ngôn ngữ trình duyệt",
+      "date": "Định dạng ngày",
+      "number": "Định dạng số"
+    }
+  }
+}

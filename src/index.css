@@ -1,0 +1,190 @@
+@import 'tailwindcss';
+
+/* ============================================================
+   KEVIN OS — "Editorial OS" design tokens
+   Warm off-white paper · one warm-orange accent · soft cards
+   Every token below becomes a Tailwind utility:
+   bg-paper, text-ink-2, border-line, rounded-card, shadow-card…
+   ============================================================ */
+@theme {
+  /* — Surfaces — */
+  --color-paper: #f6f1e8; /* page background */
+  --color-paper-2: #efe8db; /* recessed areas, hover on paper */
+  --color-surface: #fffcf7; /* cards */
+  --color-surface-2: #fbf6ee; /* nested blocks inside cards */
+
+  /* — Ink (text). All pass WCAG AA (≥4.5:1) on paper AND surface — */
+  --color-ink: #1f1c18; /* primary text, 15:1 */
+  --color-ink-2: #5a5248; /* secondary text, 6.8:1 */
+  --color-ink-3: #6f665a; /* muted labels, 5.2:1 */
+
+  /* — Lines — */
+  --color-line: #e7dfd1;
+  --color-line-strong: #d6ccba;
+
+  /* — Accent: warm orange (fitness energy + business warmth) —
+     accent        decorative only: dots, bars, icons, focus ring
+     accent-strong fills behind white text (4.65:1)
+     accent-ink    orange text on light backgrounds (5.6:1)        */
+  --color-accent: #e8693a;
+  --color-accent-strong: #c4501f;
+  --color-accent-hover: #a9431a;
+  --color-accent-ink: #a63f17;
+  --color-accent-soft: #fceadf;
+
+  /* — Status (badges only, never decoration) — */
+  --color-success: #2f6b45;
+  --color-success-soft: #e3efe4;
+  --color-warn: #8a5a00;
+  --color-warn-soft: #f8ecd2;
+
+  /* — Type — */
+  --font-sans: 'Inter', 'Noto Sans SC', 'Noto Sans', system-ui, -apple-system, 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  --font-display: 'Noto Serif', 'Noto Serif SC', 'Songti SC', Georgia, serif;
+
+  /* — Radius — */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-card: 20px;
+
+  /* — Elevation: warm-tinted, never grey — */
+  --shadow-card: 0 1px 2px rgb(74 52 30 / 0.04), 0 10px 28px -16px rgb(74 52 30 / 0.18);
+  --shadow-pop: 0 2px 4px rgb(74 52 30 / 0.06), 0 18px 40px -18px rgb(74 52 30 / 0.28);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    margin: 0;
+    background: var(--color-paper);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: var(--color-accent-soft);
+    color: var(--color-ink);
+  }
+}
+
+/* ============================================================
+   Typography — two systems
+   Editorial  (INTRO / IDENTITY / VISION): t-display, t-chapter, t-lede
+   Dashboard  (DASHBOARD):                 t-h2, t-h3, t-body, t-label, t-stat
+   ============================================================ */
+@layer components {
+  /* Editorial */
+  .t-display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(40px, 7vw, 72px);
+    line-height: 1.04;
+    letter-spacing: -0.035em;
+    text-wrap: balance;
+  }
+  .t-display-sm {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(32px, 5vw, 56px);
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
+  }
+  .t-chapter {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .t-lede {
+    font-size: clamp(16px, 1.6vw, 19px);
+    line-height: 1.65;
+    text-wrap: pretty;
+  }
+
+  /* Dashboard */
+  .t-h2 {
+    font-size: clamp(20px, 2vw, 24px);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+  }
+  .t-h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .t-body {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .t-label {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .t-stat {
+    font-size: clamp(32px, 3.4vw, 40px);
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* ============================================================
+   Language-aware typography
+   Vietnamese: stacked diacritics (ố, ữ, ặ) clip at tight leading.
+   Chinese: CJK glyphs fill the em-box, need more leading and must
+   NOT be tracked tight; uppercase/letter-spacing is meaningless.
+   ============================================================ */
+:lang(vi) .t-display,
+:lang(vi) .t-display-sm {
+  line-height: 1.14;
+}
+:lang(zh) body {
+  line-height: 1.75;
+}
+:lang(zh) .t-display,
+:lang(zh) .t-display-sm {
+  line-height: 1.22;
+  letter-spacing: 0;
+}
+:lang(zh) .t-h2,
+:lang(zh) .t-stat {
+  letter-spacing: 0;
+}
+:lang(zh) .t-body,
+:lang(zh) .t-lede {
+  line-height: 1.8;
+}
+:lang(zh) .t-chapter,
+:lang(zh) .t-label {
+  letter-spacing: 0.06em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

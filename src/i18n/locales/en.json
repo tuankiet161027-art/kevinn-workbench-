@@ -1,0 +1,462 @@
+{
+  "app": {
+    "name": "KEVIN OS",
+    "documentTitle": "KEVIN OS — A personal operating system",
+    "tagline": "A personal operating system"
+  },
+  "common": {
+    "notUpdated": "Not updated",
+    "empty": "—",
+    "loading": "Loading…",
+    "example": "Illustrative example"
+  },
+  "language": {
+    "label": "Language",
+    "switchTo": "Switch to {{name}}",
+    "native": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "zh": "中文"
+    }
+  },
+  "header": {
+    "home": "KEVIN OS — back to top",
+    "skip": "Skip to main content",
+    "search": "Search",
+    "notifications": "Notifications",
+    "account": "Account"
+  },
+  "content": {
+    "brand": {
+      "kicker": "Personal Operating System",
+      "tagline": [
+        "Build skills.",
+        "Build strength.",
+        "Build independence."
+      ],
+      "philosophyLabel": "Core philosophy",
+      "philosophy": "Become capable of building the life you want.",
+      "ctaDashboard": "Open the dashboard",
+      "ctaStory": "Read the story"
+    },
+    "chapters": {
+      "whoIAm": "Who I am",
+      "vision": "Vision",
+      "dashboard": "Dashboard",
+      "profile": "Profile & Data"
+    },
+    "profile": {
+      "name": "Kevin",
+      "roles": "Student · Future entrepreneur · Self-developer",
+      "oneLiner": "I am a second-year student in an international program at HUIT, exploring Logistics, international business and entrepreneurship — while building my English, professional capabilities, an athletic lifestyle and personal discipline to create financial independence and a more flexible future.",
+      "welcome": "You have ambitions bigger than your current circumstances. Today is another chance to turn them into real skills, meaningful experiences and consistent action."
+    },
+    "greeting": {
+      "morning": "Good morning, {{name}}.",
+      "afternoon": "Good afternoon, {{name}}.",
+      "evening": "Good evening, {{name}}."
+    },
+    "identity": {
+      "education": {
+        "title": "Education & career",
+        "items": [
+          "Second-year student in an international program at HUIT.",
+          "Major: Logistics.",
+          "Exploring careers in Logistics, international business and multinational companies.",
+          "Curious how academic knowledge translates into real work experience.",
+          "Considering how education can support a future in entrepreneurship."
+        ]
+      },
+      "business": {
+        "title": "Entrepreneurial interests",
+        "items": [
+          "Gym ownership and the fitness business.",
+          "Gym equipment distribution, including brands such as Panatta.",
+          "Supplement distribution and sales.",
+          "Fitness content creation and personal branding.",
+          "Business operations, supply chains, marketing and customer acquisition."
+        ]
+      },
+      "traits": {
+        "title": "Personal characteristics",
+        "items": [
+          "Curious — always wants to understand the reasons behind things.",
+          "Values critical thinking and different perspectives.",
+          "Prefers concrete explanations and actionable plans.",
+          "Wants to grow in patience, communication and accountability.",
+          "Working on consistency, procrastination and overthinking.",
+          "Wants to become more approachable and socially confident."
+        ]
+      }
+    },
+    "vision": {
+      "statement": "To become financially independent, physically healthy, knowledgeable and emotionally resilient — able to support my family, build meaningful relationships and choose freely how I live."
+    },
+    "dashboard": {
+      "focusHeading": "Four focus areas",
+      "pillarsHeading": "Three long-term pillars",
+      "entriesHeading": "Quick entries",
+      "todayValue": "Today's value",
+      "notLogged": "Not logged",
+      "target": "Target",
+      "track": "Track",
+      "progress": "Progress to target",
+      "mostImportant": "Most important",
+      "threeItems": "Three concrete items"
+    },
+    "focus": {
+      "career": {
+        "title": "Career & Business Development",
+        "target": "Build practical experience and identify a meaningful career direction.",
+        "body": "Explore Logistics and international business while developing the network, industry knowledge and entrepreneurial skills needed to enter the fitness industry or build an independent business.",
+        "track": "Career research, internships, projects, mentors and business experiments."
+      },
+      "english": {
+        "title": "English & Communication",
+        "target": "IELTS Speaking 6.5–7.0 and Writing 6.0–6.5.",
+        "body": "Turn English from an academic subject into a professional advantage — for international opportunities, university performance, networking and business.",
+        "track": "IELTS practice, grammar, vocabulary, writing and professional communication."
+      },
+      "fitness": {
+        "title": "Fitness & Nutrition",
+        "target": "Build a lean, athletic physique while keeping muscle and strength.",
+        "body": "Build a sustainable fitness lifestyle through resistance training, cardiovascular conditioning, sensible nutrition and recovery.",
+        "track": "Workouts, calories, protein, sleep and body-composition trends.",
+        "note": "Previously stated plan: about {{normal}} kcal on normal/training days and {{rest}} kcal on rest days. Reassess periodically — not fixed requirements."
+      },
+      "growth": {
+        "title": "Personal Growth & Life Management",
+        "target": "Develop consistency, emotional resilience, self-awareness, patience and better decision-making.",
+        "body": "Build a stronger mind and a balanced life by learning to manage emotions, relationships, responsibilities, habits and personal expectations.",
+        "track": "Daily priorities, emotional awareness, social confidence and monthly reflection."
+      }
+    },
+    "pillars": {
+      "career": {
+        "title": "Career Discovery & Entrepreneurship",
+        "body": "Discover where your interests, strengths and market opportunities intersect — then turn that understanding into practical experience and potential business opportunities.",
+        "items": {
+          "a": {
+            "title": "Logistics & International Business",
+            "bullets": [
+              "Understand supply chains, procurement, freight forwarding and import-export.",
+              "Explore multinational companies and job opportunities in Vietnam and overseas.",
+              "Understand career progression, salary potential and the skills needed to become a business owner."
+            ]
+          },
+          "b": {
+            "title": "Fitness Industry & Business",
+            "bullets": [
+              "Research gym equipment brands such as Panatta and how equipment is distributed.",
+              "Explore supplement distribution, sales, marketing and customer acquisition.",
+              "Study gym ownership and fitness content creation."
+            ]
+          },
+          "c": {
+            "title": "Professional Development & Networking",
+            "bullets": [
+              "Find university lecturers, industry mentors and professionals.",
+              "Prepare a competitive CV and pursue internships.",
+              "Build a personal brand and sharpen professional communication."
+            ]
+          }
+        }
+      },
+      "english": {
+        "title": "English, Academic Excellence & Practical Skills",
+        "body": "Develop strong communication and analytical skills so you can study internationally, work with confidence and express complex ideas clearly.",
+        "items": {
+          "a": {
+            "title": "IELTS & Academic English",
+            "bullets": [
+              "Improve Speaking toward Band 6.5–7.0.",
+              "Improve Writing toward Band 6.0–6.5.",
+              "Practise Task 2 argument development and coherence."
+            ]
+          },
+          "b": {
+            "title": "Language Foundation",
+            "bullets": [
+              "Strengthen core grammar rather than memorising patterns.",
+              "Build vocabulary through context, synonyms, antonyms and collocations.",
+              "Use advanced but natural expressions."
+            ]
+          },
+          "c": {
+            "title": "Practical Communication",
+            "bullets": [
+              "Practise presentations and spontaneous speaking.",
+              "Improve professional writing, emails and interviews.",
+              "Learn to explain ideas and convey different perspectives."
+            ]
+          }
+        }
+      },
+      "health": {
+        "title": "Physical Health, Mental Resilience & Relationships",
+        "body": "Create a balanced lifestyle where physical health, emotional stability, meaningful relationships and personal discipline support one another.",
+        "items": {
+          "a": {
+            "title": "Physical Development",
+            "bullets": [
+              "Keep training at the gym and develop a V-shaped athletic physique.",
+              "Improve cardiovascular endurance through walking, running and Zone 2 work.",
+              "Prioritise protein, recovery and sleep."
+            ]
+          },
+          "b": {
+            "title": "Mental Strength",
+            "bullets": [
+              "Develop a stable mindset instead of depending on motivation.",
+              "Cut back on body comparison and negative self-judgement.",
+              "Learn to handle uncertainty, anxiety and disappointment."
+            ]
+          },
+          "c": {
+            "title": "Social & Personal Development",
+            "bullets": [
+              "Build genuine friendships and become more approachable.",
+              "Take responsibility in group projects and social commitments.",
+              "Develop patience, empathy, active listening and multi-perspective thinking."
+            ]
+          }
+        }
+      }
+    },
+    "nav": {
+      "label": "KEVIN OS navigation",
+      "groupA": "My daily system",
+      "groupB": "My future & identity",
+      "items": {
+        "overview": {
+          "title": "Overview",
+          "desc": "Daily progress, priorities and overall personal development."
+        },
+        "planner": {
+          "title": "Daily Planner & Habits",
+          "desc": "University schedule, study sessions, workouts, sleep and commitments."
+        },
+        "english": {
+          "title": "English & Learning",
+          "desc": "IELTS, vocabulary, grammar, writing corrections and speaking practice."
+        },
+        "fitness": {
+          "title": "Fitness & Nutrition",
+          "desc": "Gym routines, calories, protein, body-weight trends and recovery."
+        },
+        "university": {
+          "title": "University & Career",
+          "desc": "Logistics education, career planning, internships and industry research."
+        },
+        "networking": {
+          "title": "Networking & Personal Brand",
+          "desc": "Mentors, professional connections, social skills and fitness content creation."
+        },
+        "finance": {
+          "title": "Finance & Entrepreneurship",
+          "desc": "Financial independence, investing education, business models and gym-industry opportunities."
+        },
+        "mindset": {
+          "title": "Mindset & Reflection",
+          "desc": "Emotional resilience, self-awareness, relationships, mistakes and monthly reviews."
+        }
+      }
+    },
+    "entries": {
+      "action": "Start",
+      "plan": {
+        "title": "Plan My Day",
+        "desc": "Create a realistic plan that balances university, IELTS preparation, gym training, personal commitments and rest.",
+        "bullets": [
+          "Today's three most important priorities.",
+          "Study, workout and personal schedules.",
+          "Completed, pending and postponed tasks."
+        ]
+      },
+      "explore": {
+        "title": "Explore My Future",
+        "desc": "Discover career opportunities, explore business ideas and find practical experiences that bring you closer to financial independence.",
+        "bullets": [
+          "Logistics and international business research.",
+          "Fitness industry and business opportunities.",
+          "Internships, mentors and networking."
+        ]
+      },
+      "reflect": {
+        "title": "Reflect & Reset",
+        "desc": "Review the day's actions, emotions, decisions and growth — to see what worked, what didn't and what needs to change.",
+        "bullets": [
+          "Daily reflection.",
+          "Weekly progress review.",
+          "Monthly personal development review."
+        ]
+      }
+    },
+    "quickInput": {
+      "label": "Quick input",
+      "placeholder": "Quick input: plan, learn something, or reflect on today…",
+      "submit": "Save note",
+      "modeLabel": "Note type",
+      "saved": "Saved — on this browser only.",
+      "recent": "Recent notes",
+      "remove": "Delete note",
+      "modes": {
+        "plan": {
+          "label": "Plan",
+          "desc": "Organise my day, prioritise important tasks and create realistic schedules."
+        },
+        "learn": {
+          "label": "Learn & Build",
+          "desc": "Learn English, develop practical skills, research opportunities or work on business and career projects."
+        },
+        "reflect": {
+          "label": "Reflect",
+          "desc": "Analyse my progress, understand my emotions, spot mistakes and improve my decisions."
+        }
+      }
+    },
+    "profileData": {
+      "title": "The facts on file.",
+      "intro": "Background used to personalise KEVIN OS. Figures are marked with when they were last reported.",
+      "rows": {
+        "displayName": "Display name",
+        "university": "University",
+        "program": "Program",
+        "studyYear": "Study year",
+        "major": "Major",
+        "height": "Height",
+        "weight": "Latest reported weight",
+        "englishGoal": "English goal",
+        "fitnessGoal": "Fitness goal",
+        "training": "Training",
+        "businessInterest": "Business interest",
+        "contentInterest": "Content interest",
+        "financialAmbition": "Financial ambition",
+        "learningPref": "Learning preference",
+        "planningPref": "Planning preference",
+        "values": "Values to develop",
+        "lifestyle": "Lifestyle vision"
+      },
+      "values": {
+        "program": "International program",
+        "studyYear": "Second year, as last reported",
+        "major": "Logistics",
+        "weight": "{{value}} · reported {{date}}",
+        "englishGoal": "Speaking 6.5–7.0 · Writing 6.0–6.5",
+        "fitnessGoal": "Lean athletic physique, maintain muscle",
+        "training": "Gym, walking, running, cardiovascular conditioning",
+        "businessInterest": "Gym, equipment, supplements, distribution",
+        "contentInterest": "Fitness content creation",
+        "financialAmbition": "USD 1 million before age 25 (previously stated)",
+        "learningPref": "Detailed explanations, specific examples, SMART plans",
+        "planningPref": "Roadmaps, measurable goals, monthly reviews",
+        "values": "Patience, resilience, accountability, empathy",
+        "lifestyle": "Financial independence, flexibility and family support"
+      }
+    },
+    "dataGaps": {
+      "title": "Data gaps",
+      "intro": "Needed before KEVIN OS can show real numbers. Until then, every metric shows “—”.",
+      "badge": "Needs update",
+      "items": [
+        "Current GPA and academic performance.",
+        "Current IELTS scores.",
+        "Current career projects and internship status.",
+        "Current daily productivity.",
+        "Current income, savings and investments.",
+        "Current body weight and fitness performance.",
+        "Current sleep schedule."
+      ]
+    }
+  },
+  "ds": {
+    "chapter": "Design System",
+    "status": "Step 1 · Awaiting review",
+    "title": "System first. Screens second.",
+    "lede": "The foundation of KEVIN OS: colour, type, spacing and shared components — so every screen that follows speaks with one voice.",
+    "colors": {
+      "chapter": "Colour",
+      "title": "Warm paper, deep ink, one spark of orange.",
+      "note": "Orange is reserved for primary actions and highlights — never sprinkled around as decoration.",
+      "roles": {
+        "paper": "Page background",
+        "surface": "Card",
+        "ink": "Primary text",
+        "ink2": "Secondary text",
+        "ink3": "Muted label",
+        "line": "Border",
+        "accent": "Accent",
+        "accentStrong": "Primary button",
+        "accentSoft": "Soft accent"
+      }
+    },
+    "type": {
+      "chapter": "Typography",
+      "title": "Two voices: story and system.",
+      "editorial": "Editorial — for Intro, Identity, Vision",
+      "dashboard": "Dashboard — for the control panel",
+      "sample": {
+        "display": "Discipline is freedom.",
+        "lede": "A little every day: one more session, one more chapter, one step closer to the goal.",
+        "h2": "This week",
+        "body": "Metrics without data show “—”, never an invented number.",
+        "label": "Last updated"
+      }
+    },
+    "components": {
+      "chapter": "Components",
+      "title": "Shared building blocks.",
+      "states": {
+        "default": "Default",
+        "disabled": "Disabled",
+        "loading": "Loading"
+      },
+      "buttons": {
+        "heading": "Buttons",
+        "primary": "Get started",
+        "secondary": "View details",
+        "ghost": "Skip",
+        "saving": "Saving",
+        "add": "Add new"
+      },
+      "badges": {
+        "heading": "Status badges",
+        "active": "In progress",
+        "done": "Done",
+        "pending": "Awaiting data",
+        "note": "Note",
+        "draft": "Draft"
+      },
+      "progress": {
+        "heading": "Progress bar",
+        "empty": "No data yet"
+      },
+      "avatar": {
+        "heading": "Avatar"
+      },
+      "sidebar": {
+        "heading": "Navigation item"
+      },
+      "chapterLabel": {
+        "heading": "Chapter label"
+      },
+      "cards": {
+        "heading": "Cards",
+        "statLabel": "Sessions this week",
+        "interactive": "Interactive card",
+        "interactiveHint": "Hover to see it lift.",
+        "flat": "Nested block inside a card"
+      }
+    },
+    "i18n": {
+      "chapter": "Languages",
+      "title": "One story, three languages.",
+      "body": "Pick VI / EN / 中 at the top right. Your choice is remembered; on a first visit, the page follows your browser language.",
+      "current": "Current language",
+      "stored": "Saved (localStorage)",
+      "browser": "Browser language",
+      "date": "Date format",
+      "number": "Number format"
+    }
+  }
+}
