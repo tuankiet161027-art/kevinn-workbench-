@@ -39,6 +39,10 @@
       "ctaDashboard": "Mở bảng điều khiển",
       "ctaStory": "Đọc câu chuyện"
     },
+    "hero3d": {
+      "label": "Nhân vật 3D của Kevin",
+      "hint": "Kéo để xoay · rê chuột, Kevin sẽ nhìn theo"
+    },
     "chapters": {
       "whoIAm": "Tôi là ai",
       "vision": "Tầm nhìn",

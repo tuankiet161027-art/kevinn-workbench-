@@ -39,6 +39,10 @@
       "ctaDashboard": "进入控制台",
       "ctaStory": "阅读我的故事"
     },
+    "hero3d": {
+      "label": "Kevin 的 3D 形象",
+      "hint": "拖动可旋转 · 移动鼠标，Kevin 会看向你"
+    },
     "chapters": {
       "whoIAm": "我是谁",
       "vision": "愿景",

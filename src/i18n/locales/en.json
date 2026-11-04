@@ -39,6 +39,10 @@
       "ctaDashboard": "Open the dashboard",
       "ctaStory": "Read the story"
     },
+    "hero3d": {
+      "label": "3D figure of Kevin",
+      "hint": "Drag to spin · move your cursor and Kevin follows"
+    },
     "chapters": {
       "whoIAm": "Who I am",
       "vision": "Vision",

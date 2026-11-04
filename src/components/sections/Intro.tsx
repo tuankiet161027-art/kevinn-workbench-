@@ -2,9 +2,10 @@ import { ArrowDown, ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { useList } from '../../lib/useList'
 import { ChapterLabel } from '../editorial/ChapterLabel'
+import { Hero3D } from '../hero/Hero3D'
 import { buttonClasses } from '../ui'
 
-/** 00 — Cover. Editorial DNA: kicker label, very large serif tagline, philosophy. */
+/** 00 — Cover. Editorial DNA: kicker label, very large serif tagline, philosophy + 3D Kevin. */
 export function Intro() {
   const { t } = useTranslation()
   const list = useList()
@@ -17,30 +18,36 @@ export function Intro() {
   ] as const
 
   return (
-    <section aria-labelledby="intro-heading" className="pt-14 pb-16 sm:pt-24 sm:pb-24">
-      <ChapterLabel index={0} label={t('content.brand.kicker')} className="mb-6 sm:mb-8" />
-      <h1 id="intro-heading" className="t-display max-w-5xl">
-        {tagline.map((line, i) => (
-          <span key={line} className={i === tagline.length - 1 ? 'block text-accent-ink' : 'block'}>
-            {line}
-          </span>
-        ))}
-      </h1>
-
-      <div className="mt-10 grid gap-8 sm:mt-14 lg:grid-cols-[1fr_auto] lg:items-end">
-        <div className="max-w-xl">
-          <p className="t-label mb-2 text-ink-3">{t('content.brand.philosophyLabel')}</p>
-          <p className="t-lede text-ink-2">{t('content.brand.philosophy')}</p>
+    // overflow-x-clip: the giant "KEVIN." watermark is cropped at the edge instead of widening the page
+    <section aria-labelledby="intro-heading" className="overflow-x-clip pt-12 pb-16 sm:pt-20 sm:pb-24">
+      {/* mobile: label → tagline → 3D → philosophy; desktop: text left, 3D right */}
+      <div className="grid items-center gap-x-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,0.9fr)]">
+        <div className="lg:col-start-1 lg:row-start-1">
+          <ChapterLabel index={0} label={t('content.brand.kicker')} className="mb-6 sm:mb-8" />
+          <h1 id="intro-heading" className="t-display">
+            {tagline.map((line, i) => (
+              <span key={line} className={i === tagline.length - 1 ? 'block text-accent-ink' : 'block'}>
+                {line}
+              </span>
+            ))}
+          </h1>
         </div>
-        <div className="flex flex-wrap gap-3">
-          <a href="#dashboard" className={buttonClasses('primary')}>
-            {t('content.brand.ctaDashboard')}
-            <ArrowRight aria-hidden />
-          </a>
-          <a href="#who-i-am" className={buttonClasses('secondary')}>
-            {t('content.brand.ctaStory')}
-            <ArrowDown aria-hidden />
-          </a>
+
+        <Hero3D className="my-6 max-w-[360px] sm:max-w-[440px] lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:my-0 lg:max-w-[560px]" />
+
+        <div className="lg:col-start-1 lg:row-start-2 lg:mt-12">
+          <p className="t-label mb-2 text-ink-3">{t('content.brand.philosophyLabel')}</p>
+          <p className="t-lede max-w-xl text-ink-2">{t('content.brand.philosophy')}</p>
+          <div className="mt-7 flex flex-wrap gap-3">
+            <a href="#dashboard" className={buttonClasses('primary')}>
+              {t('content.brand.ctaDashboard')}
+              <ArrowRight aria-hidden />
+            </a>
+            <a href="#who-i-am" className={buttonClasses('secondary')}>
+              {t('content.brand.ctaStory')}
+              <ArrowDown aria-hidden />
+            </a>
+          </div>
         </div>
       </div>
 
